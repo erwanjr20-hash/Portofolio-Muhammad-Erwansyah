@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  </head>
+  <style>
+      .Contact {
+        display: flex;
+        justify-content: space-between;
+      }
+      .card-contact {
+        background-color: #f7f9fc;
+        border: 0.5px solid #ddd;
+        padding: 40px;
+        margin: 20px;
+        border-radius: 16px;
+        transition: 0.5s ease;
+      }
+      .card-contact h1 {
+        color: #0f3460 ;
+      }
+      .kartu-kontak {
+        margin-top: 20px;
+        background-color: #fff;
+        border: 0.5px solid #ddd;
+        display: flex;
+        align-items: center;
+        padding-right: 130px;
+        padding-top: 5px;
+        padding-left: 10px;
+        margin-bottom: 40px;
+        border-radius: 16px;
+        padding-bottom: 5px;
+      }
+      .kartu-logo i{
+        font-size: 25px;
+        color: white;
+      }
+      .kartu-logo {
+        background-color: #378ADD;
+        padding: 8px;
+        border-radius: 25%;
+      }
+      .kartu-logo1 {
+        font-size: 25px;
+        color: white;
+      }
+      .kartu-logo1 {
+        background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+        padding: 8px;
+        border-radius: 25%;
+      }
+      .kartu-teks {
+        text-align: left;
+        line-height: 0.5;
+        padding: 5px;
+      }
+      .kartu-teks h3 {
+      margin-left: 10px;
+      color: #8888;
+      }
+      .kartu-teks p {
+        font-size: 15px;
+      }
+      /* Pesan */
+      .pesan {
+        background-color: #f7f9fc;
+        border: 0.5px solid #ddd;
+        margin: 20px;
+        width: 440px;
+        text-align: left;
+        padding: 20px;
+        border-radius: 16px;
+      }
+      .pesan h1 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: #0f3460;
+      }
+      .pesan1 input {
+        border-radius: 12px;
+        width: 400px;
+        height: 40px;
+        padding: 10px;
+        margin-bottom: 30px;
+        background: #fff;
+        border: 0.5px solid #ddd;
+        outline: none;
+      }
+      .pesan1 h3 {
+        color: #378ADD;
+      }
+      .pesan1 textarea {
+        height: 100px;
+        width: 400px;
+        padding: 10px;
+        border-radius: 12px;
+        background: #fff;
+        border: 0.5px solid #ddd;
+        outline: none;
+        margin-bottom: 10px;
+      }
+      .pesan1 input:focus {
+        border-color: #378ADD;
+        box-shadow: 0 0 0 3px rgba(55,138,221,0.1);
+      }
+      .pesan1 textarea:focus {
+        border-color: #378ADD;
+        box-shadow: 0 0 0 3px rgba(55,138,221,0.1);
+      }
+      .btn button {
+        background-color: #f7f9fc;
+        border: 0.5px solid #ddd;
+        width: 400px;
+        height: 40px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.5s ease;
+      }
+      .btn button i {
+        font-size: 15px;
+      }
+      .btn button:active {
+        transform: scale(0.97);
+        background-color: #ddd;
+      }
+      .card-contact a {
+        text-decoration: none;
+        color: #000;
+      }
+  </style>
+  <body>
+    <!-- Bagian Header -->
+    <header class="head">
+      <h1>Muhammad Erwansyah</h1>
+      <h2>Web Developer</h2>
+    </header>
+    <!-- Bagian Navbar -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Bagian Section atau content -->
+    <section class="content">
+      <h2>Hubungi Saya</h2>
+      <hr class="hr1"></hr>
+      <div class="Contact">
+        <!-- Card Kontak -->
+          <div class="card-contact">
+            <h1>Informasi Kontak</h1>
+            <a href="https://wa.me/628560202020" target="_blank">
+              <div class="kartu-kontak">
+                <div class="kartu-logo">
+                    <i class="ti ti-phone"></i>
+                </div>
+                  <div class="kartu-teks">
+                    <h3>No. Handphone</h3>
+                  </div>
+              </div>
+            </a>
+            <a href="mailto:erwanjr20@gmail.com">
+              <div class="kartu-kontak">
+                <div class="kartu-logo">
+                  <i class="ti ti-brand-gmail"></i>
+                </div>
+              <div class="kartu-teks">
+                    <h3>Email</h3>
+                  </div>
+                  </div>
+            </a>
+                <a href="https://www.instagram.com/erwanjr20/" target="_blank">
+                  <div class="kartu-kontak">
+                    <div class="kartu-logo1">
+                      <i class="ti ti-brand-instagram"></i>
+                    </div>
+                    <div class="kartu-teks">
+                      <h3>Instagram</h3>
+                    </div>
+                  </div>
+                </a>
+          </div>
+          <!-- Card Pesan -->
+          <div class="card-pesan">
+            <form action="https://formspree.io/f/mvkkwykn" method="post">
+              <div class="pesan">
+                <h1>Kirim Pesan</h1>
+                <div class="pesan1">
+                  <h3>Nama Lengkap</h3>
+                  <input type="text" name="name" placeholder="Masukkan Nama Lengkap Anda..." required>
+                </div>
+                <div class="pesan1">
+                  <h3>Email Address</h3>
+                  <input type="email" name="email" placeholder="Example@gmail.com" required>
+                </div>
+                <div class="pesan1">
+                  <h3>Komentar</h3>
+                  <textarea name="message" id="" placeholder="Tulis pesan anda disini" required></textarea>
+                </div>
+                <div class="btn">
+                  <button type="submit"><i class="ti ti-send"></i> <h3> Kirim Pesan</h3></button>
+                </div>
+              </div>
+            </form>
+          </div>
+      </div>
+    </section>
+    <!-- Bagian Footer -->
+    <footer>
+      Web profile @2026. Muhammad Erwansyah . All Rights Reserved.
+    </footer>
+  </body>
+</html>
