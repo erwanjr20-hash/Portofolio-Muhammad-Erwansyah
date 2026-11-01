@@ -3,173 +3,180 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>About | Portofolio</title>
+    <link
+      rel="icon"
+      type="image"
+      href="assets/WhatsApp Image 2026-11-01 at 21.44.52.jpeg"
+    />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+    />
   </head>
   <style>
     .flex {
-        display: flex;
-        margin-top: 30px;
-        gap: 50px;
+      display: flex;
+      margin-top: 30px;
+      gap: 50px;
     }
     /* Card Kiri */
     .card-gambar {
-        padding: 40px;
-        margin: 10px;
-        transition: 0.5s ease;
-        border-radius: 16px;
-        border: 2px solid #ddd;
+      padding: 40px;
+      margin: 10px;
+      transition: 0.5s ease;
+      border-radius: 16px;
+      border: 2px solid #ddd;
     }
     .image img {
-        width: 250px;
-        height: 250px;
-        padding: 10px;
-        border-radius: 50%;
-        margin-bottom: 30px;
+      width: 250px;
+      height: 250px;
+      padding: 10px;
+      border-radius: 50%;
+      margin-bottom: 30px;
     }
     .card-gambar h4 {
-        line-height: 2.5;
-        font-size: 15px;
-        padding: 3px;
-        background-color: #E6F1FB;
-        border-radius: 16px;
-        color: #185FA5;
-        border: 0.5px solid #B5D4F4;
-        margin-bottom: 20px;
+      line-height: 2.5;
+      font-size: 15px;
+      padding: 3px;
+      background-color: #e6f1fb;
+      border-radius: 16px;
+      color: #185fa5;
+      border: 0.5px solid #b5d4f4;
+      margin-bottom: 20px;
     }
     .hr-profile {
-        border: 2px solid #ddd;
+      border: 2px solid #ddd;
     }
     .logo {
-        margin-top: 100px;
-        display: flex;
-        justify-content: center;
-        transition: 0.5s ease;
-        gap: 30px;
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+      transition: 0.5s ease;
+      gap: 30px;
     }
     .logo img {
-        width: 50px;
-        border: 1px solid white;
-        padding: 5px;
-        background-color: white;
-        border-radius: 50%;
+      width: 50px;
+      border: 1px solid white;
+      padding: 5px;
+      background-color: white;
+      border-radius: 50%;
     }
     .card-gambar:hover {
-        transform: scale(1.1);
+      transform: scale(1.1);
     }
     /* Card Kanan */
     .card-nama {
-        display: flex;
-        background-color: #FFF ;
-        border: 2px solid #ddd;
-        padding: 10px;
-        line-height: 0.6;
-        margin-top: 15px;
-        margin-left: -10px;
-        margin-bottom: 50px;
-        border-radius: 13px;
-        align-items: center;
-        transition: 0.5s ease;
+      display: flex;
+      background-color: #fff;
+      border: 2px solid #ddd;
+      padding: 10px;
+      line-height: 0.6;
+      margin-top: 15px;
+      margin-left: -10px;
+      margin-bottom: 50px;
+      border-radius: 13px;
+      align-items: center;
+      transition: 0.5s ease;
     }
     .card-nama:hover {
-        transform: translateX(15px);
+      transform: translateX(15px);
     }
 
     i {
-        color: #378ADD ;
+      color: #378add;
     }
     .card-nama i {
-    font-size: 30px;
-    padding: 10px;
+      font-size: 30px;
+      padding: 10px;
     }
     .kalimat {
-        display: flex;
+      display: flex;
     }
     .card-nama:hover {
-        transform: translateX(12px);
+      transform: translateX(12px);
     }
-    .label p{
-        width: 150px;
-        text-align: left;
-        font-size: 18px;
-        color: #888888;
+    .label p {
+      width: 150px;
+      text-align: left;
+      font-size: 18px;
+      color: #888888;
     }
     .value {
-        text-align: left;
-        display: flex;
+      text-align: left;
+      display: flex;
     }
-    
-.about-card {
-    width: 100%;
-    max-width: 600px;
-    min-height: 450px;
-    box-sizing: border-box;
-    padding: 30px;
-    border: 2px solid #dddddd;
-    border-radius: 17px;
-    background-color: #ffffff;
-    font-family: Arial, sans-serif;
-}
 
-.about-header {
-    margin-bottom: 22px;
-}
-
-.about-subtitle {
-    color: #3989ed;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-.about-header h2 {
-    margin: 8px 0 12px;
-    font-size: 26px;
-    color: #111111;
-}
-
-.about-line {
-    width: 100%;
-    height: 3px;
-    background-color: #dddddd;
-}
-
-.about-content {
-    color: #555555;
-    font-size: 15px;
-    line-height: 1.8;
-    text-align: justify;
-}
-
-.about-content p {
-    margin-bottom: 15px;
-}
-
-.about-content strong {
-    color: #222222;
-}
-
-.about-footer {
-    display: flex;
-    gap: 8px;
-    margin-top: 25px;
-    padding-top: 15px;
-    border-top: 1px solid #dddddd;
-    color: #3989ed;
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
     .about-card {
+      width: 100%;
+      max-width: 600px;
+      min-height: 450px;
+      box-sizing: border-box;
+      padding: 30px;
+      border: 2px solid #dddddd;
+      border-radius: 17px;
+      background-color: #ffffff;
+      font-family: Arial, sans-serif;
+    }
+
+    .about-header {
+      margin-bottom: 22px;
+    }
+
+    .about-subtitle {
+      color: #3989ed;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .about-header h2 {
+      margin: 8px 0 12px;
+      font-size: 26px;
+      color: #111111;
+    }
+
+    .about-line {
+      width: 100%;
+      height: 3px;
+      background-color: #dddddd;
+    }
+
+    .about-content {
+      color: #555555;
+      font-size: 15px;
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    .about-content p {
+      margin-bottom: 15px;
+    }
+
+    .about-content strong {
+      color: #222222;
+    }
+
+    .about-footer {
+      display: flex;
+      gap: 8px;
+      margin-top: 25px;
+      padding-top: 15px;
+      border-top: 1px solid #dddddd;
+      color: #3989ed;
+      font-size: 11px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .about-card {
         max-width: 100%;
         padding: 22px;
+      }
     }
-}
-
   </style>
   <body>
     <!-- Bagian Header -->
@@ -187,100 +194,100 @@
     </nav>
     <!-- Bagian Section atau content -->
     <section class="content">
-        <h2>Tentang Saya</h2>
-        <hr class="hr1">
-        <div class="flex">
-            <div class="card-gambar">
-                <div class="image"><img src="assets/WhatsApp Image 2026-05-11 at 18.55.21.jpeg" alt="">
-                </div>
-                <h1>Erwansyah</h1>
-                <h4>Web Designer & Web development</h4>
-                <hr class="hr-profile">
-            </div>
-            <div class="card-identitas">
-                <div class="susun-kata">
-                    <div class="card-nama">
-                        <i class="ti ti-user"></i>  
-                        <div class="kalimat">
-                            <div class="label"><p>Username</p></div>
-                            <div class="value"><p>Muhammad Erwansyah</p></div>
-                        </div>
-                    </div>
-                    <div class="card-nama">
-                        <i class="ti ti-map-pin"></i>
-                        <div class="kalimat">
-                            <div class="label"><p>Tempat Lahir</p></div>
-                            <div class="value"><p>Bekasi</p></div>
-                        </div>
-                    </div>
-                    <div class="card-nama">
-                        <i class="ti ti-calendar"></i>
-                        <div class="kalimat">
-                            <div class="label"><p>Tanggal Lahir</p></div>
-                            <div class="value"><p>07 | 10 | 2009</p></div>
-                        </div>
-                    </div>
-                    <div class="card-nama">
-                        <i class="ti ti-home"></i>
-                        <div class="kalimat">
-                            <div class="label"><p>Alamat</p></div>
-                            <div class="value"><p>Golden City</p></div>
-                        </div>
-                    </div>
-                    <div class="card-nama">
-                        <i class="ti ti-mail"></i>
-                        <div class="kalimat">
-                            <div class="label"><p>Email</p></div>
-                            <div class="value"><p>erwanjr20@gmail.com</p></div>
-                        </div>
-                    </div>
-                    <div class="card-nama">
-                        <i class="ti ti-phone"></i>
-                        <div class="kalimat">
-                            <div class="label"><p>No Telepon</p></div>
-                            <div class="value"><p>+62 08XX-XXXX-XXXX</p></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="Section-cerita">
-            
-<div class="about-card">
-    <div class="about-content">
-        <p>
-            Perkenalkan, nama saya <strong>Muhammad Erwansyah</strong>.
-            Saya merupakan seorang pelajar di
-            <strong>SMK Swasta Taruna Bangsa Bekasi</strong>,
-            dengan mengambil jurusan
-            <strong>Rekayasa Perangkat Lunak (RPL)</strong>.
-        </p>
-
-        <p>
-            Saya memiliki ketertarikan dalam dunia teknologi,
-            khususnya di bidang pemrograman dan pengembangan website.
-            Saya senang mempelajari hal-hal baru, mencoba berbagai
-            teknologi, serta mengembangkan kemampuan dalam membuat
-            aplikasi dan website.
-        </p>
-
-        <p>
-            Di luar kegiatan belajar, saya memiliki hobi bermain bola.
-            Kegiatan tersebut menjadi salah satu cara bagi saya untuk
-            mengisi waktu luang dan belajar mengenai kerja sama tim.
-        </p>
-
-        <p>
-            Saya lahir di Bekasi pada tanggal 07 Oktober 2009
-            dan saat ini tinggal di kawasan Golden City,
-            Gang Spontan. Saya berharap dapat terus mengembangkan
-            kemampuan, menambah pengalaman, dan meraih cita-cita
-            di bidang teknologi.
-        </p>
-    </div>
-</div>
-
+      <h2>Tentang Saya</h2>
+      <hr class="hr1" />
+      <div class="flex">
+        <div class="card-gambar">
+          <div class="image">
+            <img
+              src="assets/WhatsApp Image 2026-05-11 at 18.55.21.jpeg"
+              alt=""
+            />
+          </div>
+          <h1>Erwansyah</h1>
+          <h4>Web Designer & Web development</h4>
+          <hr class="hr-profile" />
         </div>
+        <div class="card-identitas">
+          <div class="susun-kata">
+            <div class="card-nama">
+              <i class="ti ti-user"></i>
+              <div class="kalimat">
+                <div class="label"><p>Username</p></div>
+                <div class="value"><p>Muhammad Erwansyah</p></div>
+              </div>
+            </div>
+            <div class="card-nama">
+              <i class="ti ti-map-pin"></i>
+              <div class="kalimat">
+                <div class="label"><p>Tempat Lahir</p></div>
+                <div class="value"><p>Bekasi</p></div>
+              </div>
+            </div>
+            <div class="card-nama">
+              <i class="ti ti-calendar"></i>
+              <div class="kalimat">
+                <div class="label"><p>Tanggal Lahir</p></div>
+                <div class="value"><p>07 | 10 | 2009</p></div>
+              </div>
+            </div>
+            <div class="card-nama">
+              <i class="ti ti-home"></i>
+              <div class="kalimat">
+                <div class="label"><p>Alamat</p></div>
+                <div class="value"><p>Golden City</p></div>
+              </div>
+            </div>
+            <div class="card-nama">
+              <i class="ti ti-mail"></i>
+              <div class="kalimat">
+                <div class="label"><p>Email</p></div>
+                <div class="value"><p>erwanjr20@gmail.com</p></div>
+              </div>
+            </div>
+            <div class="card-nama">
+              <i class="ti ti-phone"></i>
+              <div class="kalimat">
+                <div class="label"><p>No Telepon</p></div>
+                <div class="value"><p>+62 08XX-XXXX-XXXX</p></div>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="Section-cerita">
+          <div class="about-card">
+            <div class="about-content">
+              <p>
+                Perkenalkan, nama saya <strong>Muhammad Erwansyah</strong>. Saya
+                merupakan seorang pelajar di
+                <strong>SMK Swasta Taruna Bangsa Bekasi</strong>, dengan
+                mengambil jurusan
+                <strong>Rekayasa Perangkat Lunak (RPL)</strong>.
+              </p>
+
+              <p>
+                Saya memiliki ketertarikan dalam dunia teknologi, khususnya di
+                bidang pemrograman dan pengembangan website. Saya senang
+                mempelajari hal-hal baru, mencoba berbagai teknologi, serta
+                mengembangkan kemampuan dalam membuat aplikasi dan website.
+              </p>
+
+              <p>
+                Di luar kegiatan belajar, saya memiliki hobi bermain bola.
+                Kegiatan tersebut menjadi salah satu cara bagi saya untuk
+                mengisi waktu luang dan belajar mengenai kerja sama tim.
+              </p>
+
+              <p>
+                Saya lahir di Bekasi pada tanggal 07 Oktober 2009 dan saat ini
+                tinggal di kawasan Golden City, Gang Spontan. Saya berharap
+                dapat terus mengembangkan kemampuan, menambah pengalaman, dan
+                meraih cita-cita di bidang teknologi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Bagian Footer -->
     <footer>
