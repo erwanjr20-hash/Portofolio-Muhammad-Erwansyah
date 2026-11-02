@@ -170,11 +170,62 @@
       letter-spacing: 1px;
     }
 
-    /* Responsive */
-    @media (max-width: 768px) {
-      .about-card {
+    /* RESPONSIVE ABOUT */
+    @media screen and (max-width: 768px) {
+      .flex {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 20px;
+      }
+
+      .card-gambar,
+      .card-identitas,
+      .Section-cerita {
+        width: 100%;
         max-width: 100%;
-        padding: 22px;
+        margin: 0;
+      }
+
+      .card-gambar {
+        padding: 20px;
+      }
+
+      .card-nama {
+        margin: 12px 0;
+        padding: 10px;
+      }
+
+      .kalimat {
+        flex-wrap: wrap;
+        min-width: 0;
+      }
+
+      .label p {
+        width: 110px;
+        font-size: 14px;
+      }
+
+      .value {
+        flex: 1;
+        min-width: 0;
+      }
+
+      .value p {
+        overflow-wrap: anywhere;
+        font-size: 14px;
+      }
+
+      .about-card {
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
+        padding: 20px;
+      }
+
+      .card-gambar:hover,
+      .card-nama:hover {
+        transform: none;
       }
     }
   </style>
