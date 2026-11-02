@@ -136,6 +136,75 @@
         text-decoration: none;
         color: #000;
       }
+      /* RESPONSIVE CONTACT */
+
+@media screen and (max-width: 768px) {
+
+    .Contact {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
+    }
+
+    .card-contact {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .kartu-kontak {
+        width: 100%;
+        padding: 10px;
+        margin: 15px 0;
+        gap: 10px;
+    }
+
+    .kartu-teks {
+        line-height: 1.4;
+        min-width: 0;
+    }
+
+    .kartu-teks h3 {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+    .pesan {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .pesan1 input,
+    .pesan1 textarea {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .btn button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .card-contact,
+    .pesan {
+        padding: 15px;
+    }
+
+    .card-contact h1,
+    .pesan h1 {
+        font-size: 22px;
+    }
+
+    .pesan1 h3 {
+        font-size: 15px;
+    }
+}
   </style>
   <body>
     <!-- Bagian Header -->
