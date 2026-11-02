@@ -170,11 +170,17 @@
       letter-spacing: 1px;
     }
 
-    /* RESPONSIVE ABOUT */
     @media screen and (max-width: 768px) {
+      .content {
+        margin: 20px 10px;
+        padding: 20px 12px;
+      }
+
       .flex {
         display: flex;
         flex-direction: column;
+        align-items: stretch;
+        width: 100%;
         gap: 25px;
         margin-top: 20px;
       }
@@ -182,8 +188,10 @@
       .card-gambar,
       .card-identitas,
       .Section-cerita {
+        display: block;
         width: 100%;
         max-width: 100%;
+        min-width: 0;
         margin: 0;
       }
 
@@ -191,19 +199,35 @@
         padding: 20px;
       }
 
+      .image img {
+        display: block;
+        width: 200px;
+        height: 200px;
+        max-width: 100%;
+        margin: 0 auto 20px;
+      }
+
       .card-nama {
+        width: 100%;
         margin: 12px 0;
         padding: 10px;
+        line-height: 1.4;
       }
 
       .kalimat {
+        display: flex;
+        flex: 1;
         flex-wrap: wrap;
         min-width: 0;
       }
 
+      .label {
+        flex: 0 0 110px;
+      }
+
       .label p {
-        width: 110px;
-        font-size: 14px;
+        width: auto;
+        font-size: 13px;
       }
 
       .value {
@@ -212,8 +236,8 @@
       }
 
       .value p {
+        font-size: 13px;
         overflow-wrap: anywhere;
-        font-size: 14px;
       }
 
       .about-card {
@@ -223,9 +247,28 @@
         padding: 20px;
       }
 
+      .about-content {
+        font-size: 14px;
+        line-height: 1.8;
+      }
+
       .card-gambar:hover,
       .card-nama:hover {
         transform: none;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .card-gambar h1 {
+        font-size: 25px;
+      }
+
+      .card-gambar h4 {
+        font-size: 12px;
+      }
+
+      .about-card {
+        padding: 15px;
       }
     }
   </style>
